@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest",
     "prepack": "mkdir -p node8plus && tsc && tsc --target esnext --lib esnext --outDir build-turbo --declarationDir build-turbo",
+    "prepare": "mkdir -p node8plus && tsc && tsc --target esnext --lib esnext --outDir build-turbo --declarationDir build-turbo",
     "watch": "mkdir -p node8plus && tsc --watch"
   },
   "repository": {
